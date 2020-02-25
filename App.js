@@ -22,6 +22,7 @@ export default function App() {
         value: goals
       }
     ]);
+    clearText();
   };
   const resetText = () => {
     setlist([]);

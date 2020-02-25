@@ -9,7 +9,7 @@ export default function InputComponent(props) {
           placeholder="Enter here your goals"
           style={styles.inputText}
           onChangeText={props.ChangeText}
-          value={props.goals}
+          value={props.goal}
         />
         <View style={styles.buttons}>
           <View style={styles.buttonsWidth}>
